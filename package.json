@@ -1,0 +1,20 @@
+{
+  "name": "hash256-mining-bot",
+  "version": "1.0.0",
+  "description": "Hash256 mining automation bot for Railway deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["mining", "hash256", "ethereum"],
+  "author": "Goodness",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "ethers": "^6.10.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
